@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gantt</title>
+
+	<script src="script.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<table id="gantt">
+		<thead>
+			<tr id="row-header-month">
+				<th scope="col" rowspan="3">Task</th>
+
+				<th scope="col" colspan="8" id="header-month-8">August</th>
+			</tr>
+			<tr id="row-header-week">
+				<th scope="col" colspan="7" id="header-week-35">Week 35</th>
+				<th scope="col" colspan="7" id="header-week-36">Week 36</th>
+			</tr>
+			<tr id="row-header-day">
+				<th scope="col" id="header-day-8-24">Mo<br />24.</th>
+				<th scope="col" id="header-day-8-25">Tu<br />25.</th>
+				<th scope="col" id="header-day-8-26">We<br />26.</th>
+				<th scope="col" id="header-day-8-27">Th<br />27.</th>
+				<th scope="col" id="header-day-8-28">Fr<br />28.</th>
+				<th scope="col" id="header-day-8-29">Sa<br />29.</th>
+				<th scope="col" id="header-day-8-30">Su<br />30.</th>
+				<th scope="col" id="header-day-8-31">Mo<br />31.</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="row-task-1">
+				<th scope="row" id="header-task-1">PP Manual</th>
+				<td colspan="6" id="field-task-1">until 29th of August</td>
+				<td colspan="2" id="field-after-task-1"></td>
+			</tr>
+			<tr id="row-task-2">
+				<th scope="row" id="header-task-2">PIA Fehler</th>
+				<td colspan="3" id="field-before-task-2"></td>
+				<td colspan="5" id="field-task-2">until 31st of August</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
